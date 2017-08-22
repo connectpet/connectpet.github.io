@@ -153,14 +153,12 @@ h2{
 #fc{
     left:-400vw;
 }
-#ih{
+
+#ns{
     left:-500vw;
 }
-#ns{
-    left:-600vw;
-}
 #a{
-    left:-700vw;
+    left:-600vw;
 }
 
 #nav_brief{
@@ -236,9 +234,7 @@ h2{
 #u8{
     background-image: url(u8.png);
 }
-#u9{
-    background-image: url(u9.png);
-}
+
 
 #h1{
     background-image: url(h1.png);

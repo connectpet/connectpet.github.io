@@ -31,12 +31,9 @@
             $("#nav_fc").css("color","rgba(244,48,72,0.4)");
         }
             if (position == 600){
-            $("#nav_ih").css("color","rgba(244,48,72,0.4)");
-        }
-            if (position == 700){
             $("#nav_ns").css("color","rgba(244,48,72,0.4)");
         }
-             if (position == 800){
+             if (position == 700){
             $("#nav_a").css("color","rgba(244,48,72,0.4)");
         }
             
@@ -52,7 +49,7 @@
                                    );
             expanded = false;
             position += 100;
-                if (position == 800){
+                if (position == 700){
                         $("#triangle-right").css("display","none");
             }
         }
@@ -112,20 +109,9 @@
             expanded = false;
             }               
       );
-        $('#nav_ih').click(function(){
-                position = 600;
-                          $("#triangle-right").css("display","block");
 
-
-            $('.contentbox').animate({'left' : '500vw'}, {duration: 500},
-            {easing: 'ease-in-out'}
-                                   );
-            expanded = false;
-            }               
-      );
-        
       $('#nav_ns').click(function(){
-                position = 700;
+                position = 600;
                           $("#triangle-right").css("display","block");
 
 
@@ -138,7 +124,7 @@
         
                
       $('#nav_a').click(function(){
-                position = 800;
+                position = 700;
                           $("#triangle-right").css("display","none");
 
 
@@ -164,13 +150,10 @@
         
         <li><div class = "nav" id="nav_ir" >Initial Research</div></li>
         <li><div class = "nav"  id="nav_dd" >Design Direction</div></li>
-        <li><div class = "nav"  id="nav_idr" >Key Challgne & Ideation</div></li>
+        <li><div class = "nav"  id="nav_idr" >Key Challenge & Solution</div></li>
         <li><div class = "nav"  id="nav_fc" >Final User Flow</div></li>
-        <li><div class = "nav"  id="nav_ih" >Interaction Highlights</div></li>
-
         <li><div class = "nav"  id="nav_ns" >Next steps</div></li>
         <li><div class = "nav"  id="nav_a" >Appendix</div></li>
-
     </ul>
     </div>
     
@@ -194,7 +177,7 @@
         And I soon realized that I need some more information on the status quo of the shelter animals. <br>
             </p>
             <h2>
-        I decided to start on the initial research on understanding facts and existing discussions on the shelter animals.</h2>
+        I decided to start on the initial research on understanding the problem space - learn more about shelter animals and related discussions. </h2>
         </div>
         
         
@@ -202,17 +185,17 @@
         <div class = "content" id = "ir">
                 
 
-        <h1>Brief breakdown</h1>
+        <h1>Brief Breakdown</h1>
         <h2>
-                        <b>Status quo of shelter animals:</b>
+         <b>Status quo of shelter animals:</b>
 
         <ul class = "contents_ul">
-        <li>Approximately <b>6.5 million</b> companion animals enter U.S. animal shelters nationwide every year. In other words, 742 animals are entering animal shelters during an hour of lunch break.</li>
-        <li>In U.S every year,  1.5 million shelter animals are euthanised and 3.2 million shelter animals are adopted.</li>
+        <li>Approximately <b>6.5 million</b> animals enter U.S. animal shelters every year. In other words, 742 animals are entering animal shelters during an hour of lunch break.</li>
+        <li>In U.S every year, 1.5 million shelter animals are euthanized and 3.2 million are adopted.</li>
             </ul>
             </h2>
             <p>
-                Naturally, I wanted to find out more about <b>why so many animals are being sent to the animals shelters.</b> Unlike the basic information, comprehensive statistics on animal being sent to the shelter was hard to be found found. It is understandable for lots of the cases, the reasons and causes are not evident from the animals and it is impossible to ask everyone why s/he is sending the pet to the shelter. I instead decided to read expert interviews and news articles on major casues.
+                <b>Why so many animals are being sent to the shelters?</b> Unlike the stats like above, comprehensive statistics on the reason of animal being sent to the shelter was hard to find. It is impossible to ask everyone why s/he is sending the pet to the shelter. Also, I guessed that reasons and causes of abandonement are not evident from the animals. (a.k.a. animals have no severe health or behavior issues)  I found some analysis from expert interviews and news articles.
             </p>
             
             <h2>     
@@ -220,110 +203,108 @@
 
                 <ul class = "contents_ul">
 
-                <li>The cost of taking care of the animal becomes a financial burden for the pet owner.</li>
-                <li>Training animals properly is easily overlooked and lack of training leads to various behavior issues.</li>
-                <li>Pet owners have difficult times finding a person to take care of the pet when they are away. Also when they relocate, the conditions of the new place may not fit with the pet. </li>
-                <li>When the pet gets old or sick, it gets more difficult(including financial aspect) to take care of the pet.
-                </li>
-                <li>A (new) member of the family (partner, baby, other pets) does not get along with the pet. (Allergy, preference) </li></ul></h2><br>
-                <p>Reasons were not completely out of nowhere but I felt that many of the things could have been anticipated in advance. Experts also pointed out that <b>people are not fully aware of what they are getting into.</b> They emphasized why adopting a pet is a huge commitment and how pity it is for the initial source of the pet does not equip the pet owners of these knowledge. Since I was not familiar with the shelter animal issues, the more I got to know about the field, the more I got curious. Yet, I moveed on for the next steps to complete the design challenge in an appropriate time range.</p> 
+                <li>The cost of taking care of the animal becomes a burden for the pet owner.</li>
+                <li>Training animals properly is overlooked and lack of training leads to behavior issues.</li>
+                <li>Pet owners have difficult times finding a person to take care of the pet when they are away. Also when owners relocate, the conditions of the new place may not fit with the pet. </li>
+                <li>When the pet gets old or sick, it takes more resources to keep the pet.</li>
+                <li>A (new) member of the family (partner, baby, other pets) does not get along with the pet. (allergy, preference) </li></ul></h2><br>
+                <p>Reasons were not completely out of nowhere but I felt that many of the things could have been anticipated in advance. Shouldn't the owners be aware that pets would age and that would be accompanied by some health treatments or so? Experts did point out that <b>people are not fully aware of what they are getting into</b> when they are adopting a pet and that is quite often the case of the animal abandonment. They emphasized that adopting a pet is a real commitment and it is a pity that initial source of the pet (shop, breeders) does not equip the pet owners with these knowledge.</p> 
             <br>
                     <h1>User Research</h1>
 
             
-            <p>Next thing to figure out was how people are currently matching with their pets. I have a friend and two coworkers who recently got puppies. I knew that they all got it from breeders but since that was the only people that I can get in touch in real life, I decided to conduct a brief user research with them. I asked briefly how they decided to adopt a pet, what the general process was like, and what they think about adopting a pet from the shelter.</p>
+            <p>Next thing to figure out was how people currently match with their pets. I have a few coworkers who recently adopted puppies. I knew that they all got it from breeders. I asked how they decided to adopt a pet, what the whole process was like, and what they thought about adopting a pet from the shelter.</p>
          
 <h2>
                 <b>Q: What do you think about shelter adoption?</b>
                                          <ul class = "contents_ul">
 
-                <li>Shelter pets have a behavior issue or at least some sort of acquired habits. You do not know exactly what those are and it is harder to correct those behaviors.</li>
-                <li>Shelter pets often have health issues and it is hard to track down their health information.</li>
-                <li>Getting a pet from the shelter is more difficult since the shelter has a high qualification standard. It also needs more paper work and more complicated process to go through. </li>
-                <li>It is hard to get a pure breed dog from the shelter. </li>
+                <li>"Shelter pets have a behavior issue or at least some sort of acquired habits. You do not know exactly what those are and it is harder to correct those behaviors."</li>
+                <li>"Shelter pets often have health issues and it is hard to track down their genetic information for you don't get to see their parents."</li>
+                <li>"Getting a pet from the shelter is more difficult since the shelter has a high qualification standard. It also needs more paper work and a complicated process to go through."</li>
+                <li>"It is hard to get a pure breed dog from the shelter." </li>
     </ul>
                                                          </h2>
-            <p>It was really interesting to listen to <b>what people said for it was contradicting what I had read about the shelter animals online.</b> Online articles said that the diversity of shelter pets are enormous and one can find a specific breed without difficulty. It also mentioned that the number of shelter animals is really big and not all shelter pets has health issues or behavior problems. Some animal trainers even mentioned that quite a lot of shelter animals are already trained (after entering the shelter) or relatively eaiser to be trained since they know what it is like to be with human and to be trained. <b>Experts all agreed that there are many misconceptions surrounding the shleter animals and I have witnessed those prejudices from my quick user research.</b></p>
+            <p>It was really interesting to listen to what people said on the shelter animas: <b>people's perception on shelter animals contradited experts opinions that I read online.</b> Experts said that the diversity of shelter pets is enormous and one can find a specific breed without difficulty. They also argued not all shelter pets has health issues or behavior problems. Some animal trainers even mentioned that quite a lot of shelter animals are already trained (after entering the shelter) or relatively eaiser to be trained since they know what it is like to be with human and to be trained. <b>Experts all agreed that there are many misconceptions surrounding the shleter animals and I have witnessed those prejudices from my quick user research.</b></p>
                         
           
             <h2>
                 <b>Q: How did you get your pets?</b>
                                          <ul class = "contents_ul">
 
-                <li>"I actually found the dog on eBay. I knew that I want a small dog but other than that, it was rather a spontaneous decision. The breeder visited my flatthe day after and I fell in love with my Beagle as soon as I see the dog. Now I know a little about Beagle, but I don't know about the other dogs."</li>
+                <li>"I actually found the dog on eBay. I knew that I want a small dog but other than that, it was rather a spontaneous decision. The breeder visited my flat the day after and I fell in love with my Beagle as soon as I saw him. I know a little about Beagle now, but I don't know about the other dogs."</li>
                 <li>"I kenw that I wanted to get a Labrador so I searched for the right breeder. I considered visiting the shelter but I thought I might end up crying the whole day after the visit so I didn't."</li>
                 <li>"My dad found a puppy and he was searching for a person to take care of the dog. I said, me!"</li>
                                              
                                              
     </ul>
                                                          </h2>
-            <p>I did some more research to figure out how people usually get their pets, what conditions they check and what make them choose the pet in the end. The answers seem to vary by regions and invidiauls a lot. I wondered if I should find a pattern among these but I soon realized that there is one obvious thing among all the pet stories. <b>It is about love:</b> whenever people start talking about their pets, I could see the affection coming through people's eyes immediately. <b>Just like how people fall in love with other humans, it is hard to measure which channels/ conditions bring out the love.</b> Also, just as love among humans, well-developed love and relationship enable the pet owners to take the hardship and keep the connection.</p>
+            <p>The stories on how pepole get the pets and relate to the pets were very diverse. I kept on reading the online blog postings as well to see what conditions people generally check and what make them decide on the certain pet in the end. Yet, it was quite difficult to find One pattern and I soon realized that there is one obvious reason for this: <b>it is about love.</b> <b>Just like how people fall in love with other humans is inexplicable or at least, very complex to be defined into several patterns, it is hard to measure which channels/conditions bring out the best match between the adopter and the pet.</b> Yes, there are common denominators that usually result in a successful or unsuccessful match but, just as relationship in the humans, well-developed love sometimes overcome all the hardship and make the relationship last.</p>
             
-                        <p>Then, I wondered, should I design a service similar to the dating service? Asking questions about the user, cultivating excitements and curiosity, and helping them find a match. While reviewing the competitor app, I found that I am not the only one who thought of that.</p>
+                        <p>Then, I wondered, <b>should I design a service similar to the dating service?</b> Asking questions about the user, cultivating excitements and curiosity, and helping them explore as much as possible? You never know exactly who will end up being the match, so you can focus on suggesting as many as options possible first. Reviewing the competitor app, I found that I am not the only one who thought of that.</p>
             <br>
                <h1>Competitive Research</h1>
         <h2>
-                        <b>Pet matching vs Online dating:</b>
+                        <b>Existing Pet matching services</b>
 
         <ul class = "contents_ul">
-        <li>"PawsLikeMe" uses machine learning and quiz interaction to find the perfect dog for the user. They claim that their algorithm is 95% accurate in matching the pet with the right owner.</li>
+        <li>"PawsLikeMe" uses machine learning and quiz interaction to find the perfect dog for the user. They claim that their algorithm is 95% accurate in matching the pet with the compatible owner.</li>
         <li>"BarkBuddy" or "Allpaws" makes the Tinder like swipe interaction to help find the pet.</li>
-            <li>There are many other services that enhance easy pet finding expeirences through direct input field/ checkbox filter type interactions.</li>
+            <li>Many other services focus on finding nearby pets by one click (just typing in the zip code and clicking some check boxes to filter)</li>
             </ul>
             </h2>
-<p>The more I interact with those services, the more uncomfortable I felt about the idea of applying the dating-like experiences to the pet adoption. Especially after reading the reviews at the shelter homes, articles, and blog postings about shelter pet adoption, I realized that there is a fundamental problem with using the dating like interaction to the pet adoption.</p>
+<p>The more I interact with those services,however, the more uncomfortable I felt about the idea of applying the dating-like experiences to the pet adoption. Especially after reading the reviews at the shelter homes, articles, and blog postings about shelter pet adoption, I realized that there is a fundamental problem with using the dating-like interaction to the pet adoption.</p>
             
-            <b>Adopting pet is NOT</b>
+            <b>ADOPTING a pet is NOT</b>
 
         <ul class = "contents_ul">
-        <li><b>DATING: </b> Dating basically is everything before life-long commitment. You date someone, have good times, might break up but that is all fine. You have no moral responsibility to look after the other once the relationship is over; The other party may suffer, just as you suffer, but we all know that as grown-ups, we will eventually move on. Pet adoption is not like that. <b>If you break the relationship, the pets cannot survive on its own.</b> Pet adoption is <b>a 10 or more-year commitment.</b> People take time to understand each other and digest the situation before the long-term commitment and that is exactly the mindset needed for the pet adoption.</li>
-            <li><b>SHOPPING:</b> It seems very obvious. Still, if adopting a life is different from buying a product, isn't it a bit weird to use the same design pattern/ interaction for those two different purposes? Wouldn't it <b>feel uncomfortable for some people to enter a website and find a page filled with thumbnail pictures of dogs smiling, waiting to be adopted?</b> Wouldn't it feel cruel for some people to see <b>"1492" shelter animals are available near him/her </b>? What about clicking a simple checkbox and seeing the number goes down from 1492 to 200? What will happen to the rest of the 1292 shelter animals? </li>
+            <li><b>DATING: </b> Dating basically is everything but commitment. You date someone, have good times, might not follow up and that is all fine. You have no moral responsibility to look after the other; the other party may suffer, just as you suffer, but we all know that as grown-ups, we will eventually move on. Adoption is <b>all about commitment.</b> <b>If you stop caring, pets can hardly survive on its own.</b> Pet adoption is a 10 or more-year commitment. <b>People should take time to understand each other and digest what will happen with enough time and information. </b></li>
+            <li><b>SHOPPING:</b> It seems very obvious that the pets are lives and not products. Isn't it weird to use the same design pattern/ interaction for those two different purposes? Buying something that is refunable, replaceable, and disposable vs. making a connection with the living organism? Wouldn't it be uncomfortable for some people to sipmly enter a website whose front page is filled with thumbnail pictures of smiling animals? Wouldn't it be cruel for some people to see the text <b>"1492" shelter animals are available near him/her? What about clicking a simple checkbox and seeing the number goes down from 1492 to 200? What happens to the rest of the 1292 shelter animals?</b> </li>
             </ul>
-            <p>As I get to think more about the action of "adopting a pet", I realized that this should not be treated as a dating nor shopping experience. It needs a <b>design that can allow people to be more responsible and more informed.</b></p>
-             <h2>
-        I decided to design an experience that focuses on making people aware of things while they explore.</h2>
+            <p>As I get to think deeper about the action of "adopting a pet", I realized that pet adoption service should pose a very different mindset to the users compared to shopping or dating. People shoudl <b>feel the responsiblity and be well informed</b> before finding the matching animals and adopting them. The service should be designed to serve that purpose.</p>
 
-            
-            
+
         </div>
         
         
         <div class = "content" id = "dd">
 <h1>Design Goal</h1>
         <h2>
-        <ul class = "contents_ul">        
-<li>Debunk public misconceptions about shelter animals</li>
-<li>Bring awareness in general pet knowledge</li>
-<li>Recommend the pet that fits user's lifestyles and preferences
-  </li>
-<li>Make the pet adoption process efficient and less procedural
-  </li>            
+        <ul class = "contents_ul">       
+<li>Debunk misconceptions and <b>bring awareness</b> about shelter animals to general public</li>
+<li>Design an <b>enjoyable and informative pet maching experience</b> while making sure that users feel responsiblie about adopting animals
+  </li>           
             </ul>
             </h2>
             
       
 <br>
 
-             <h1>Target User : Jenny (Female, 28)</h1>
+             <h1>Persona(Target user) : Jenny</h1>
         <h2>
-        <ul class = "contents_ul">        
-<li>Likes animals in general and looks back on cute puppies on the street</li>
-<li>Have a second-hand experience of taking care of the pet since her parents have a puppy</li>
-<li>Have a stable job and routine and would like to have a companion
-  </li>
-            <li>Lives alone and not sure if she can handle taking care of the pet by herself</li>
-            <li>Occasionally stumbles upon cute pet videos and follow some pet-related instagrams</li>
-<li>Heard of shelter animals but only vaguely</li>            
+        <ul class = "contents_ul">
+<li>Female, 28 years old</li>    
+<li>Like animals and check out cute puppies on the street</li>
+<li>Have a second-hand experience of taking care of the pet - her parents have a puppy and a cat</li>
+<li>Have a stable job and work routine</li>
+            <li>Lives alone and would like to have a pet for the companion</li>
+            <li>Not sure if she can handle a pet by herself</li>
+            <li>Occasionally watch cute pet videos and follow some pet-related instagram accounts</li>
+<li>Vaguely heard of shelter animals</li> 
+            <li>Think that it is a kind and good thing to do but she prefers to have a "normal" animal</li>            
+
             </ul>
             </h2>
             <br>
              <h1>Vision:</h1>
         <h2>
-            After experiencing the new service, I hope Jenny to 
+            After experiencing the pet matching service, Jenny will 
         <ul class = "contents_ul">        
 <li>Put down prejudices on shelter animals </li>
-<li>Find a pet that maches her lifestyle(be surprised by the good recommendation from the system)</li>
-            <li>Carry on with her adoption without obstacles, but only after, she is ready. </li>
+<li>Find a pet that maches her lifestyle(even be surprised by how good the recommendation is)</li>
+            <li>Learn more about adopting an animal</li>
+            <li><b>Be inspired and ready to be a good caretaker</b></li>
+
             </ul>
             </h2>
 
@@ -332,25 +313,39 @@
     <div class = "content" id = "idr">
             
         
-      <p>To achieve the design goals and vision, I narrowed 3 design challenges :</p>      
+      <p>To achieve the design goals and vision, I extracted 3 main design challenges and came up with the answer:</p>      
             
-  <h1>Grab user's attention</h1><h2>
-            <b>How can I hook users to get interested in shelter animals? How do I help them learn about various pets and ways to take care of them?</b>
-        <p>
-        From the intital research, I have read various stories related to the pet and shelter animals. Actually reading the words of the owners have a strong power; it made me imagine what it would be like to adopt a pet. A best and most engaging way to tell the story these days? There is no doubt, video. Working in the ad-tech industry, I have read and read numerous articles about how every platform tries to grab more engagment by using the video formats. Seeing is beliving and watching is the next seeing. In particular, google has the world's largest source of all those videos YouTube. Why not bring the YouTube videos for this search experience?
+  <h1>1. Grab user's attention</h1><h2>
+        <b>Answer : A dedicated landing page for debunking the myths of shelter animals & various access points to the landing page</b>    
+        </h2>
+        <p> How can users be more interested in shelter animals? How can a service help users correct their prejudices?</p><p>
+        Looking back on my own experience, once I get to read a bit about the shelter animals, it was pretty easy to see the fact that not all shelter animals are sick or traumatized. Simply math (just seeing the number of shelter animals) can tell that it is unlikely to have all those shelter animals are damaged psychologically or physically. </p>
+        <p> If there is a dedicated landing page for this service which corrects the prejudice people have through a video or attention grabbing contents, this will set a good start of pet matching journey. Working in an ad-tech industry for past two years, I have read and read numerous case studies about how platform succeeded in raising the user engagement by using the video format contents. Seeing is believing and watching is the new seeing. <b>What about telling the stories of the shelter animals and their new owners through video and use that as an appetizer for the pet matching service?</b> In particular, Google has the world's largest source of all those videos YouTube. Why not embark the service with the YouTube videos?
         </p>
         
        
-        </h2>
         <br>
-            <h1>Smooth matching experience</h1><h2>
-            <b>How can I match the users properly to the pet? Which aspects of user conditions are permanent/ temporary? Do users know exactly what they perfer? Can it change? What will be the way to bring out user's fit/interests?</b>
-       <p>
-           I first divided the information that I need from users into three two categories. The profile type of information which is infomation about the user her/himself and the next is the information about the preference. For the profile information, answers are quite obvious (ex.user's housing situation) so I decided to directly ask those.</p>
-        <p>For the preference question, I thought of an idea of dividing it into two section: one section where users can freely give out the asnwers and the other section where users cna explore and figure out. Since not many people have an ample knowledge on pets, I thought giving an opportunity to explore and find out one's own preference can be a smooth way of getting the ideas from user.
+            <h1>2. Acquire meaningful information from users</h1><h2>
+            <b>
+        Answer : Categorize the questions into groups and ask each group of question in a different tone/interaction</b></h2>
+        
+        <p>The best strategy to match users with the pets is to have a lot of information. How can a service learn about the users most? What information of the users will be permanent/ temporary? Do users know exactly what they perfer? Can we trust what users say?<br></p>
+       <p> Tinder-type interaction could have been the low-hanging answer for this challenge. However, in the design direction, I have already decided to balance the fun with the ethical/moral responsiblity. <b>What is a good way of asking bunch of questions wihout getting them tired?</b></p>
+        <p>
+           To have a better idea of what I would like to know from users, I first divided the information that I would like to get. Indeed, the type of information that I need users to provide varied:<br><b>First group</b>, information about what users can DO to the pet. This type of information is needed to check if user can afford a pet at this point and if so, what types. An answer to this question will be rather objective and fact-based for it is literally about describing what kinds of circumstances that users have at this moment. <b>Therefore, a straight-forward questionnaire will work well. </b>
+            <br>
+            <b>Second group</b>, the information about what types of pet users would like to have. From the user research, I learned that getting this perference correctly is a bit trickier.People may think that they prefer one over the other but <b>this may not be the actual reflection of what they truly value.</b> Esepcailly when users are not an expert, often times users may not be aware of one's preference or have a wrong idea of one's preference.
+            <b>I decided to ask the preference questions in two angles: one, asking directly and most efficiently; two, asking around what users connect better after show & telling the available options</b>
+            
+           
 </p>
-        </h2>
-       
+        <br>
+            <h1>3. Educate users and make them ready for commitments</h1><h2>
+        <b>Answer : Plant multiple touchpoints to the relevant knowledge throughout the interaction. For example, while asking the user-profile question, tell users why this question matters and how it is connected to finding a good match.</b></h2>
+        <p>How can a service teach users while also get answers from them? Is it possible to provide users with information while asking them to provide answers?<br></p>
+       <p>
+           <b>The power of displaying information at the right time at the right place is enourmous;</b> it influences people to be engaged and to make a desired action. To refer to the experiences of working at the display advertising, the right targeting is the essence of the modern-day digital advertisement. The same piece of information(or advertisement) can be a garbage or a gold based on when, to whom and how the information is being displayed. If I consider treat this pet-related knowledge and adoption information as a content to advertise, the most efficient way is to focus on targeting. I would aim to create the best opportunities to deliver the knowledge and deliver it well.</p>
+                  
           </div>
         
         
@@ -358,75 +353,54 @@
         
         
         
-        <div class = "content" id = "fc"><center>
-<a href = "http://" target="_blank">Download fullsize mockups</a></center><br>
-             <h2><b>1. Jenny searches for pet related information and discovers stories at ConnectPet. Jenny clicks on the stories, read the stories, and wants to know more about ConnectPet.</b></h2>
-  <div class = "img_fw" id = "u1">
-            </div>
+        <div class = "content" id = "fc">
+            <p>
+            Below is the final experience flow for the persona, Jenny that was set up in the Design Direction phase. The three key challenges and their solutions are manifested in the following user flow. 
+            </p>
+            <center>
+<a href = "https://drive.google.com/drive/folders/0B9hruQPHl1Gzb0lTWVZjbDRqbW8?usp=sharing" target="_blank">Download full-size mockups</a></center><br>
+             <h2><b>1. Jenny searches for pet related information. She soon discovers features stories from ConnectPet. Jenny clicks on the stories, read the stories, and wants to know more about ConnectPet.</b></h2>
+            <a href = "/mockup/u1.png" target="_blank"><div class = "img_fw" id = "u1"></div></a>
            
 
             <br>
-<h2>            <b>2. Jenny enters the ConnectPet landing page. She reads about the shelter animals and decides to check out what their "journey" is like. </b></h2>
+<h2>            <b>2. Jenny visits the ConnectPet. She reads about the shelter animals and learns that what she assumed for the shelter animals are not very accurate. Although she is still not sure if she is ready to have a pet, she is moved by the stories of how people develop meaningful companionship with the shelter animals. She clicks the "Start your journey"button just to check out what options are there.</b></h2><a href = "/mockup/u2%20(Converted).mov" target="_blank">
 <div class = "img_fw" id = "u2">
-            </div>
+            </div></a>
     
-            <h2>
             
-             <br><h2><b>3. Jenny creates an adopter profile. While doing so, she clicks the 'Learn more'link and learns that the same living condition can influence pets in a different way. </b></h2>
-            
+             <br><h2><b>3. Jenny fills in an adopter profile. While doing so, she clicks the 'Learn more' and learns that the same living condition can influence pets in a different way. She also learns that in her current living situation, there are some animals that she can have a quality time with. After answering 3 simple questions, she moves on.</b></h2>
+            <a href = "/mockup/u3.png" target="_blank">
 <div class = "img_fw" id = "u3">
-            </div>
+                </div></a>
             
-            <br>   <h2><b>4. Jenny enters the basic preference she has in mind. </b></h2>
+            <br>   <h2><b>4. Jenny is not sure about her preference. She thought about skipping it but ends up providing some general thoughts that she has had. </b></h2><a href = "/mockup/u4.png" target="_blank">
 <div class = "img_fw" id = "u4">
-            </div>
+                </div></a>
          
                    
             <br>
-            <h2><b>5. Jenny explores activities, trainings, and other relevant stories through videoes and marks what connects to her most. While doing so, she also learns a lot about how training actually works from the video. After finishing marking her preference, she clicks "Discover" and poceeds.</b></h2>
+            <h2><b>5. At first, Jenny is not sure if she has to watch all the videos. Soon, as she starts, she gets addicted to the list of cute pet videos. She marks the videos that she can relate to the most and also in the mean time, gain a lot of information about pet's activities, trainings, and etc. After finishing marking her preference, she clicks "Discover". She is curious what will come next but at the same time, she wants to meet the acutal animal.</b></h2><a href = "/mockup/u5.png" target="_blank">
 <div class = "img_fw" id = "u5">
-                </div>
+                </div></a>
        <br>
-            <h2><b>6. The recommendation of the future pets appear. The result shows the appiled criteria which are based on Jenny's answers. Jenny wants to explore Wilma more so she clicks the Wilma's photo.  </b></h2>
+            <h2><b>6. Jenny is glad to meet the real pet recommendation. She sees how her answers so far has influenced the reccomendation and feels she is being taken care of. She also likes the fact that animal pictures are displayed like Polaroid snaps. She can easily imagines herself in the snap with the pet. When she sees Wilma's pictures, she immediately wants to know more about her. </b></h2><a href = "/mockup/u6.png" target="_blank">
 <div class = "img_fw" id = "u6">
-                </div>
+                </div></a>
     
      <br>
-            <h2><b>7. Jenny reads details stories and more pictures about Wilma. She loves every description of Wilma and decided to meet Wilma in person. She clicks "Schedule a meeting."  </b></h2>
-                <div class = "img_fw" id = "u7"></div>
+            <h2><b>7. Jenny reads a detailed story of Wilma. She loves stories of Wilma and also glad that not just the poisitive aspect but also the warning information is included. She wasn't sure about certain descriptions but on mouse hover, extra information appeared and helped her understand. Jenny gets excited to meet Wilma in person. She clicks "Schedule a meeting."  </b></h2><a href = "/mockup/u7.png" target="_blank">
+                <div class = "img_fw" id = "u7"></div></a>
     
       <br>
-            <h2><b>8. When Jenny was about to write the meeting request, she reads that she does not meet the adoption requirement. She closes Wilma's profile. </b></h2>
+            <h2><b>8. When Jenny was about to schedule a meeting, she reads the adoption requirments coming from the shelter. She does not meet those requirements for she has no green space but she decides to ask a question at least. If not, she thinks that she can find some other ways to get involved such as volunteering as well.</b></h2><a href = "/mockup/u8.png" target="_blank">
 <div class = "img_fw" id = "u8">
-    </div>
-          <h2><b>9. After she closes the window, she wonders if she can do some temporary fostering service. She goes back to profile, click asks questions, learns more about the volunteering option from the shelter and sends a message for application. </b></h2>
-<div class = "img_fw" id = "u9">
-            </div>
+                </div></a>
             
             
     </div>
         
-        <div class = "content" id = "ih">
-            <h1>Interaction Highlights:</h1><br>
-              
-                  <h2><b>One-step search into Search Journey</b>
-</h2>
-            <div class ="img_mid" id = "h1">
-            </div> 
-             
-            <h2><b>Story-telling based exploration + Videos</b></h2>
-                
-            <div class ="img_mid" id = "h2">
-            </div>
-            <h2><b>Easy access point to relavant information</b></h2>
-                  <div class ="img_wide" id = "h3">
-            </div> 
-         
-            
- 
-        </div>
-        
-        
+
         
         
         
@@ -438,6 +412,7 @@
             <li><b>Share feedback!</b> From design direction to the final userflow, there are many things to be validated and iterated. I would first like to get the feedback on the general vision before developing further mock-ups.</li>
         <li><b>Especially, involve Users!</b> The weak spot of this concept is that the actual target users have not been involved in the design process due to the time constraint of the design challenge. Listening to their perspectives will for sure open lots of questions and would bring many insights that will help desining the better version of this service.</li>
             <li><b>Design the Shelter's side experience in parallel.</b>While reading the reviews from the shelter, I found an answer from the shelter that they are not updating their websites quickly enough due to the lack of resources and services. I also found lots of out-dated postings with un-matched pictures. While querrying the existing data can build a huge DB, I do see the value in developing this service into a platform and help the shelters managing their animals more efficinetly. </li>
+                    <li><b>Mobile platform. ConnectPet can be experienced both in desk-top and mobile. In this design response, only the desk-top side experience is elaborated for it is a better to show various "learning" touch points. It will be interesting to translate this information rich experience into mobile, while keeping the core purpose and the tone but making it simpler. </li>
             </ul>
             </h2>
         </div>
@@ -452,7 +427,7 @@
                         <div class ="img_fw" id = "p1">
             </div> <br>
             
-            <li><b>Key Challenge & Ideation (2h)</b> I sesarched some related services and seeked for the most optimal way to create the "search journey" that fits into the purpose of making users be aware. The idea of videos came out easily for I was focusing on story-telling from the beginning. Dividing information to ask in several steps and iterating on the details of the asking action took most time.</li>
+            <li><b>Key Challenge & SolutionX (2h)</b> I sesarched some related services and seeked for the most optimal way to create the "search journey" that fits into the purpose of making users be aware. The idea of videos came out easily for I was focusing on story-telling from the beginning. Dividing information to ask in several steps and iterating on the details of the asking action took most time.</li>
             <div class ="img_fw" id = "p2">
             </div> <br>
             
