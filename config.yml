@@ -1,5 +1,5 @@
 
-baseURL: "https://firstnameissoy.github.io/firstnameisoy.github.io/"
+baseURL: "https://firstnameissoy.github.io/firstnameisoy.github.io/docs"
 title: "My Hugo Site"
 footnoteReturnLinkContents: "↩"
 permalinks:

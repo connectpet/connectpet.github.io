@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://firstnameissoy.github.io/firstnameisoy.github.io/"
+baseurl = "https://firstnameissoy.github.io/firstnameisoy.github.io/docs"
 themesDir = "/Users/hwang_soyeon/Documents/Tribeca/firstnameisoy.github.io/themes"
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
@@ -8,7 +8,7 @@ theme = "hugo-cactus-theme"
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "spf13"
-publishDir = "docs"https://firstnameissoy.github.io/firstnameisoy.github.io/
+publishDir = "docs"
 
 [params]
 	name = "John Doe"
